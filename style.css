@@ -24,7 +24,7 @@ body{
     }
     .player-list{
         display: grid;
-        grid-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     
     
@@ -211,3 +211,25 @@ footer a{
     background-color: yellow;
     color: black;
 }
+
+
+
+
+/* media quary is here --------------  */
+
+@media screen and (max-width: 576px) {
+    .player-list{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+   
+    
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .player-list{
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+    
+  
