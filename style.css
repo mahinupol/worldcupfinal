@@ -211,7 +211,24 @@ footer a{
     background-color: yellow;
     color: black;
 }
-
+.Ex-button a{
+    visibility: hidden;
+    text-align: center;
+    padding: 10px 20px;
+    margin-left: 20px; 
+    margin: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.Ex-button{
+    visibility: hidden;
+    padding: 2%;
+}
 
 
 
@@ -222,6 +239,7 @@ footer a{
         
         grid-template-columns: repeat(1, 1fr);
     }
+    
 }
    
     
@@ -230,6 +248,13 @@ footer a{
         
         grid-template-columns: repeat(2, 1fr);
     }
+    .Ex-button{
+        visibility: visible;
+    }
+    .Ex-button a{
+        visibility: visible;
+    }
+
 }
     
   
