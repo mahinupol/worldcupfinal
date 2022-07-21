@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    margin-left: 10%;
+    margin-top: 2%;
+    align-items: center;
+    width: 80%;
+}
+/* ---------------media screen--------------- */
+
+@media screen and (max-width: 568px){
+    .SectionTwo{
+       overflow-x: hidden;
+    }
+    .Image{
+        margin-left: -500%;
+    }
+    .player-list{
+        display: grid;
+        grid-columns: repeat(1, 1fr);
+    }
+    
+    
+}
+/* ----------------------------Section One Start----------------------- */
+.SectionOne{
+    height: 80%;
+    border-radius: 30px;
+    background-color: #090a28;
+    display: flex;
+    
+}
+
+h1{
+    font-size: 70px;
+}
+
+.Text{
+    color: white;
+    width: 30%;
+    padding-left: 5%;
+}
+.Text p{
+    margin-bottom: 15%;
+
+}
+
+.Image img{
+    padding-left:100% ;
+    width: auto;
+    height: auto;
+    
+    
+}
+.SectionOne div button{
+    margin-top: 10px;
+}
+/* button */
+.Button-color{
+    background-color: red;
+}
+.Watch-live{
+    padding: 15px 25px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20%;
+}
+
+
+/* -----------Section Two Start------------------- */
+
+
+.SectionTwo{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 5%;
+}
+
+/* -----side navigation------ */
+
+.Side-nav button{
+    background-color: #090a28;
+    margin: 5%; 
+    border-radius: 20px;
+    color: white; 
+    padding: 10px 24px;
+    cursor: pointer; 
+    width: 80%; 
+    display: block;
+    margin-left: 20px;
+}
+.Side-nav{
+    padding-top: 30px;
+    width: 250px;
+    height: 250px;
+    background-color: black; 
+    border-radius: 20px;  
+}
+
+.SectionTwo div span a{
+    background-color: red;
+    color: white;
+    margin-top: -6%;
+}
+
+.Side-nav a{
+    width: 75%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: block;
+    margin: 5%;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+/* --------------.player-list -----------------*/
+
+.player-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+}
+
+.player-list div{
+    margin-bottom: 10%;
+    margin-left: 10%;
+    border-radius: 27px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 31px #969696,
+             -5px -5px 31px #ffffff;
+             padding: 2%;
+
+}
+.player-list div img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+
+.player-list p{
+    width: 80%;
+    font-size: 18;
+    font-weight: 600;
+    color: black;
+    margin-top: 5%;
+}
+
+
+.player-list a{
+    text-decoration: none;
+    padding: 1%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+}
+
+.player-list div span{
+    margin: 5%
+}
+
+.gane-play a, p, span{
+    margin-left: 5%;
+}
+
+
+/* -------------------------footer-------------------- */
+footer{
+    background-color: #090a28;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 5px;
+}
+footer h1{
+    color: white;
+    margin-top: 2%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin: 2%;
+}
+
+
+.border-line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.SectionOne a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.red-color a:hover{
+    background-color: yellow;
+    color: black;
+}
