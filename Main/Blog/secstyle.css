@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    margin-left: 10%;
+    margin-top: 2%;
+    align-items: center;
+    width: 80%;
+}
+.head{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(22, 22, 22, 1);
+    color: white;
+    margin: 15px;
+    border-radius: 15px;
+}
+h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.title p{
+    font-size: 17px;
+    width: 70%;
+    margin-bottom: 40px;
+}
+.title h1{
+    width: 70%;
+}
+.title{
+    padding: 35px;
+}
+.pic img{
+    Width :581px;
+    Height :613px;
+}
+.head a{
+    padding: 15px 25px;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20%;
+    background-color: red;
+}
+.Side-nav{
+    padding-top: 30px;
+    width: 250px;
+    height: 250px;
+    background-color: black; 
+    border-radius: 20px;  
+    margin-left: 15px;
+    margin-top: 90px;
+}
+.btn{
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: block;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.btnne{
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: block;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.red-color{
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+        padding: 15px 75px;
+        border-radius: 20px;
+        text-align: center;
+        font-weight: 700;
+        margin-left: 20px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.list{
+    margin-top: 90px;
+    width: 60%;
+    display: grid;
+    column-gap: 80px;
+    row-gap: 50px;
+    grid-template-columns: repeat(3, 1fr); 
+}
+.gane-play{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.list div{
+    margin-bottom: 10%;
+    margin-left: -50%;
+    
+    border-radius: 27px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 31px #969696,
+             -5px -5px 31px #ffffff;
+             padding: 1%;
+}
+
+.gane-play img, h2, p{
+    padding-top: 10%;
+}
+
+
+footer{
+    background-color: #090a28;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 5px;
+}
+footer h1{
+    color: white;
+    margin-top: 2%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin: 2%;
+}
+
+
+.border-line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
